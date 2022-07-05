@@ -1,13 +1,59 @@
-body {
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.3/font/bootstrap-icons.css");
+@import url('https://fonts.googleapis.com/css2?family=Bitter&display=swap');
+* {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+}
+#foto{
+  width: 220px;
+  border-radius: 50%;
+  border: solid 2px black;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+p {
+  font-family: 'Bitter', serif;
+  font-size: 1.2rem;
+}
+
+nav {
+  border-bottom: 5px solid #000;
+}
+i {
+  font-size: 1.8rem;
+}
+i:hover {
+  color: rgb(59, 59, 59);
+  transition: .1s;
+}
+h2 {
+  font-style: italic;
+}
+
+nav { 
+  background: white;
+}
+
+a {
+  color: #212529;
+}
+
+.cards-local {
+  justify-content: center;
+}
+
+.card {
+  width: 16rem;
+  transition: 1s;
+}
+
+.card p {
+  font-size: 1rem;
+}
+
+.cardimagem{
+  border-radius: 10px;
+  width: 200px;
+}
+.card:hover {
+  border: black 1px solid;
+  transition: .5s;
 }
