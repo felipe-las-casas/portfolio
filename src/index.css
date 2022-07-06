@@ -57,3 +57,16 @@ a {
   border: black 1px solid;
   transition: .5s;
 }
+
+#logo {
+  width: 40px;
+}
+
+@media (max-width:800px) {
+  .offcanvas-body, .btn-close {
+    font-size: 2rem;
+  }
+  #logo {
+    width: 60px;
+  }
+}

@@ -1,3 +1,4 @@
+import logo from "../img/logo_code.png"
 
 function Header() {
   return (
@@ -10,7 +11,7 @@ function Header() {
     </button>
     <div className="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
       <div className="offcanvas-header">
-        <h5 className="offcanvas-title" id="offcanvasNavbarLabel">Felipe Las Casas</h5>
+        <h5 className="offcanvas-title" id="offcanvasNavbarLabel"><img id="logo" src={logo}></img></h5>
         <button type="button" className="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
       </div>
       <div className="offcanvas-body">
